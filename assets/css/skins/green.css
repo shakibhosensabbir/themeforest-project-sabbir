@@ -1,0 +1,15 @@
+.counter__box .icon i , .about__hire__btn a, .services__box .icon i, .resume__item h4, .porfolio__menu button.active, .contact__icon i, .contact__form__btn button, span.typed-cursor, span.typed__text, .backtotop__icon i, .footer__box p a, li.current a, .navbar.sticky .menu li a:hover ,.navbar .menu li a:hover{
+    color: var(--green) !important;
+}
+.about__hire__btn a:hover ,.contact__form__btn:hover button{
+    color: #fff !important;
+}
+.bar.front::before ,.bar.back::before, .bar::before, .about__hire__btn a:hover ,.line::after, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span, .contact__form__btn button:hover ,.about__social__icon i:hover, .logo__shap, li.current a::after, .menu li a::after{
+    background-color: var(--green) !important;
+}
+.about__hire__btn a ,.about__hire__btn a:hover, .form-control:focus, .contact__form__btn button:hover, .contact__form__btn button, .header__area__box img{
+    border-color:  var(--green) !important;
+}
+.progress-wrap svg.progress-circle path {
+    stroke:  var(--green) !important;
+}

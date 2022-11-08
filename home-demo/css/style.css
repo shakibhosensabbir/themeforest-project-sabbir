@@ -1,0 +1,61 @@
+
+.demo__background__image {
+    position: relative;
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.demo__background__image::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.demo__header .logo a {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.demo__header h4{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.demo__image__box a h4 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.demo__image__box {
+    margin-bottom: 50px;
+}
+
+.demo__image__box img {
+    border-radius: 20px;
+}
+.demo__further__box {
+    box-shadow: 0px 20px 40px 20px rgb(0 0 0 / 2%);
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 0px;
+    margin-bottom: 50px;
+  }
+  .demo__further__box h4{
+    font-size: 18px;
+    color: black;
+  }
+  .demo__further__box i {
+    color:  #007bff;
+    font-size: 80px;
+  }
+  
